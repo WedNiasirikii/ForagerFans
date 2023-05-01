@@ -50,7 +50,6 @@ a {
     margin: 0;
     border-radius: 5px;
     cursor: pointer;
-    float: right;
 }
 
 #btn-language:hover {
@@ -69,7 +68,7 @@ main {
 .principal {
     background-color: rgb(49, 48, 48);
     margin: 20px 10px 20px 10px;
-    padding: 10px;
+    padding: 10px 50px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -80,6 +79,10 @@ main {
 .welcome {
     color: rgb(255, 255, 255);
     font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 section {
