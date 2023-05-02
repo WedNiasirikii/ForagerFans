@@ -70,6 +70,7 @@ main {
     margin: 20px 10px 20px 10px;
     padding: 10px 50px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    justify-content: center;
 }
 
 #personaje {
@@ -89,16 +90,17 @@ section {
     background-color: #202020;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .contenido {
 
     border: solid rgba(255, 255, 255, 0.233) 2px;
     margin: 50px;
-    padding: 20px;
+    padding: 0px 0px 10px 0px;
     border-radius: 6px;
     transition: transform 0.3s ease;
-    background-color: rgba(255, 255, 255, 0.233);
+    background-color: rgba(0, 0, 0, 0.233);
 }
 
 .contenido:hover {
@@ -106,13 +108,23 @@ section {
 }
 
 .icono {
-    width: 90px;
+    width: 300px;
+    height: 200px;
+
 }
 
 .NameContenido {
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.DescripcionContenido {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+
 }
 
 .categorias {
