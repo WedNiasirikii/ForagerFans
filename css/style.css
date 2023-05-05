@@ -160,7 +160,7 @@ body .index-main .categories .content .texts .content-desc {
 /* NOSOTROS */
 /* NOSOTROS */
 
-body .nosotros-main .legal{
+body .nosotros-main .legal {
     font-size: 30px;
     color: #008000;
 }
@@ -181,7 +181,8 @@ body .nosotros-main .about .info .about-text {
     color: rgb(255, 255, 255);
     font-size: 20px;
     align-items: center;
-    width: 70%;
+    width: 100%;
+    margin: 20px;
 }
 
 body .nosotros-main .about .info .about-img {
@@ -198,4 +199,64 @@ body .nosotros-main .about .nosotros-footer .welcome {
     align-items: center;
     text-align: center;
     margin: 10px auto;
+}
+
+
+/* GUIA */
+/* GUIA */
+/* GUIA */
+
+body .guia-main .content {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 60%;
+}
+
+body .guia-main .content .content-text {
+    color: white;
+    font-size: 18px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+body .guia-main .content .content-img {
+    width: 600px;
+}
+
+body .guia-main .category{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+body .guia-main .category .cat-content {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #313030;
+    box-shadow: 0 0 20px #00000080;
+    transition: transform 0.3s ease;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body .guia-main .category .cat-content:hover {
+    transform: translateY(-20px);
+
+}
+
+body .guia-main .category .cat-img {
+    width: 100px;
+}
+
+body .guia-main .category .cat-name {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
 }
