@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>ForagerFans</title>
     <link rel="stylesheet" href="./css/Guia.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!--     <script>
         document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'index-es.html';
@@ -21,7 +22,7 @@
     <header>
         <img src="./img/forager_logo.png">
     </header>
-    <nav>
+    <nav class="menu">
         <ul>
             <li><a href="./index-es.html">Inicio</a></li>
             <li><a href="#">Categorias</a></li>
@@ -29,88 +30,64 @@
             <li><button id="btn-language">Idioma - EN</button></li>
         </ul>
     </nav>
-    <main>
+    <main class="guia-main">
         <section class="principal">
             <p class="welcome">¡¡Hola!! <br> que lindo verte por aqui, dejame ayudarte un poco :3
 
             </p>
-            <img id="personaje" src="./img/Forager_character_transp.webp" alt="">
+            <img class="personaje" src="./img/Forager_character_transp.webp" alt="">
         </section>
-        <section class="Contenido">
-            <p class="TextoContenido">Forager es un juego de aventuras y exploración, en el que los jugadores asumen el
-                <br>
-                papel de un solitario forrajero que se aventura en un mundo misterioso y lleno de peligros. El objetivo
-                <br>
-                del juego es recolectar recursos, construir estructuras y expandir tu territorio, mientras luchas contra
-                <br>
-                enemigos y descubres secretos ocultos en el mundo del juego.
-            </p>
-            <img class="ImgContenido" src="./img/562276-Forager-review.jpg">
-            <p class="TextoContenido">Para empezar a jugar, los jugadores deben establecer una base y comenzar a <br>
-                recolectar recursos como madera, piedra y comida. A medida que se recolectan más recursos, se pueden
-                <br>
-                construir estructuras y objetos nuevos, lo que permite al jugador mejorar su equipo y enfrentar a <br>
-                enemigos más difíciles.
-            </p>
-            <img src="./img/pico.png" alt="" class="ImgContenido">
-            <p class="TextoContenido">A lo largo del juego, los jugadores deben explorar el mundo, buscar objetos <br>
-                valiosos y descubrir secretos. Además de luchar contra enemigos, también hay misterios ocultos en cada
-                <br>
-                rincón del mundo, lo que ofrece un desafío adicional y una motivación para seguir explorando.
-            </p>
-            <img src="./img/risa.webp" alt="" class="ImgContenido">
-            <p class="TextoContenido">Una de las características más interesantes de Forager es la habilidad de <br>
-                personalizar la experiencia de juego. Los jugadores pueden elegir diferentes habilidades y mejorarlas a
-                <br>
-                medida que avanzan en el juego, lo que permite a los jugadores desarrollar su estilo de juego de acuerdo
-                <br>
-                a sus preferencias personales.
-            </p>
-            <img src="./img/Forager-Announcement-Trailer-33812.jpg" alt="" class="ImgContenido">
+        <section class="content">
+            <p class="content-text">Forager es un juego de aventuras y exploración, en el que los jugadores asumen el papel de un solitario forrajero que se aventura en un mundo misterioso y lleno de peligros. El objetivo del juego es recolectar recursos, construir estructuras y expandir tu territorio, mientras luchas contra enemigos y descubres secretos ocultos en el mundo del juego.</p>
+            <img src="./img/562276-Forager-review.jpg" class="content-img">
+            
+            <p class="content-text">Para empezar a jugar, los jugadores deben establecer una base y comenzar a recolectar recursos como madera, piedra y comida. A medida que se recolectan más recursos, se pueden construir estructuras y objetos nuevos, lo que permite al jugador mejorar su equipo y enfrentar a enemigos más difíciles.</p>
+            <img src="./img/pico.png" alt="" class="content-img">
+            
+            <p class="content-text">A lo largo del juego, los jugadores deben explorar el mundo, buscar objetos valiosos y descubrir secretos. Además de   enemigos, también hay misterios ocultos en cada rincón del mundo, lo que ofrece un desafío adicional y una motivación para seguir explorando.</p>
+            <img src="./img/risa.webp" alt="" class="content-img">
+            
+            <p class="content-text">Una de las características más interesantes de Forager es la habilidad de personalizar la experiencia de juego. Los jugadores pueden elegir diferentes habilidades y mejorarlas a medida que avanzan en el juego, lo que permite a los jugadores desarrollar su estilo de juego de acuerdo a sus preferencias personales.</p>
+            <img src="./img/Forager-Announcement-Trailer-33812.jpg" alt="" class="content-img">
 
         </section>
         <section class="principal">
-            <p class="welcome">¡¡¿y bien?!! <br> ya te platique un poco de que va forager <br> pero si no te quedo claro
-                puedes ver info de categorias en especifico
-
-            </p>
-            <img id="personaje" src="./img/Forager_character_transp.webp" alt="">
+            <p class="welcome">¡¡¿y bien?!! <br> ya te platique un poco de que va forager <br> pero si no te quedo claro puedes ver info de categorias en especifico</p>
+            <img class="personaje" src="./img/Forager_character_transp.webp" alt="">
         </section>
-        <section class="Categprias">
-            <div class="CategoriasContenido">
-                <img src="./img/Colonization.webp" alt="" class="ImgCategorias">
+        <section class="category">
+            <div class="cat-content">
+                <img src="./img/Colonization.webp" alt="" class="cat-img">
 
-                <div class="NameCategorias">Islas</div>
+                <div class="cat-name">Islas</div>
             </div>
-            <div class="CategoriasContenido">
-                <img src="./img/Magic_Old.webp" alt="" class="ImgCategorias">
-                <div class="NameCategorias">habilidades</div>
+            <div class="cat-content">
+                <img src="./img/Magic_Old.webp" alt="" class="cat-img">
+                <div class="cat-name">habilidades</div>
             </div>
-            <div class="CategoriasContenido">
-                <img src="./img/Structure.webp" alt="" class="ImgCategorias">
-                <div class="NameCategorias">Estructuras</div>
+            <div class="cat-content">
+                <img src="./img/Structure.webp" alt="" class="cat-img">
+                <div class="cat-name">Estructuras</div>
             </div>
-            <div class="CategoriasContenido">
-                <img src="./img/Shrine_14.webp" alt="" class="ImgCategorias">
-                <div class="NameCategorias">Criaturas</div>
+            <div class="cat-content">
+                <img src="./img/Shrine_14.webp" alt="" class="cat-img">
+                <div class="cat-name">Criaturas</div>
             </div>
-        </section>
-        <section class="Categprias">
-            <div class="CategoriasContenido">
-                <img src="./img/Magic.webp" alt="" class="ImgCategorias">
-                <div class="NameCategorias">Acertijos</div>
+            <div class="cat-content">
+                <img src="./img/Magic.webp" alt="" class="cat-img">
+                <div class="cat-name">Acertijos</div>
             </div>
-            <div class="CategoriasContenido">
-                <img src="./img/Shrine_07.webp" alt="" class="ImgCategorias">
-                <div class="NameCategorias">Misiones</div>
+            <div class="cat-content">
+                <img src="./img/Shrine_07.webp" alt="" class="cat-img">
+                <div class="cat-name">Misiones</div>
             </div>
-            <div class="CategoriasContenido">
-                <img src="./img/Shrine_11.webp" alt="" class="ImgCategorias">
-                <div class="NameCategorias">Mejoras</div>
+            <div class="cat-content">
+                <img src="./img/Shrine_11.webp" alt="" class="cat-img">
+                <div class="cat-name">Mejoras</div>
             </div>
-            <div class="CategoriasContenido">
-                <img src="./img/Deposit.webp" alt="" class="ImgCategorias">
-                <div class="NameCategorias">Mazmorras</div>
+            <div class="cat-content">
+                <img src="./img/Deposit.webp" alt="" class="cat-img">
+                <div class="cat-name">Mazmorras</div>
             </div>
         </section>
     </main>
