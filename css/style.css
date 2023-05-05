@@ -75,7 +75,7 @@ body main {
     justify-content: center;
 }
 
-body .index-main .principal {
+body main .principal {
     background-color: rgb(49, 48, 48);
     margin: 20px 10px;
     padding: 10px 50px;
@@ -84,7 +84,7 @@ body .index-main .principal {
     justify-content: space-between;
 }
 
-body .index-main .principal .welcome {
+body main .principal .welcome {
     color: #ffffff;
     font-size: 25px;
     display: flex;
@@ -92,7 +92,7 @@ body .index-main .principal .welcome {
     justify-content: center;
 }
 
-body .index-main .principal .personaje {
+body main .principal .personaje {
     width: 160px;
 }
 
@@ -154,4 +154,48 @@ body .index-main .categories .content .texts .content-desc {
     color: #fff;
     text-align: center;
     font-size: 18px;
+}
+
+
+/* NOSOTROS */
+/* NOSOTROS */
+/* NOSOTROS */
+body .nosotros-main .legal{
+    font-size: 30px;
+    color: #008000;
+}
+
+body .nosotros-main .about .info {
+    background-color: #313030;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 50px;
+    box-shadow: 0 0 20px #00000080;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+body .nosotros-main .about .info .about-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align-items: center;
+    width: 70%;
+}
+
+body .nosotros-main .about .info .about-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    float: left;
+    margin: 10px 30px 10px 10px;
+}
+
+body .nosotros-main .about .nosotros-footer .welcome {
+    color: #ffffff;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
 }
