@@ -209,6 +209,7 @@ body .nosotros-main .about .nosotros-footer .welcome {
 body .guia-main .content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 20px;
     width: 60%;
 }
@@ -232,17 +233,17 @@ body .guia-main .category{
 }
 
 body .guia-main .category .cat-content {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
     margin: 20px;
     padding: 10px;
     background-color: #313030;
     box-shadow: 0 0 20px #00000080;
     transition: transform 0.3s ease;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 body .guia-main .category .cat-content:hover {
