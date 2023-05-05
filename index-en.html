@@ -1,73 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <script src="./js/forager.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="./img/de54dvc-a458f850-29eb-4faf-aaa5-6a626a8ece18.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Forager</title>
 </head>
+
 <body>
     <header>
         <img src="./img/forager_logo.png">
     </header>
-    <nav>
+    <nav class="menu">
         <ul>
-            <li><a href="index-en.html">Inicio</a></li>
+            <li><a href="index-es.html">Inicio</a></li>
             <li><a href="#">Categorias</a></li>
-            <li><a href="#">Nosotros</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li><a href="AvisoLegal.html">Aviso Legal</a></li>
             <li><button id="btn-language">Idioma - ES</button></li>
         </ul>
     </nav>
-    <main>
+    <main class="index-main">
         <section class="principal">
-            <p class="welcome">¡¡bienvenido!! <br> aqui encontraras bastante informacion y tips sobre este maravilloso
-                juego
-            </p>
-            <img id="personaje" src="./img/Forager_character_transp.webp" alt="">
+            <p class="welcome">¡¡bienvenido!!<br>aqui encontraras bastante informacion y tips sobre este maravilloso juego</p>
+            <img class="personaje" src="./img/Forager_character_transp.webp" alt="">
         </section>
-        <p class="categorias">¿En que podemos ayudarte?</p>
-        <section>
-            <div class="contenido">
-                <a href="./index.html">
-                    <img class="icono" src="./img/forager-finally-updates-console-versions-with-1595020202208.webp"
-                        alt="">
+        <p class="category-title">¿En que podemos ayudarte?</p>
+        <section class="categories">
+            <div class="content">
+                <a href="./Guia.html">
+                    <img class="content-img" src="./img/forager-finally-updates-console-versions-with-1595020202208.webp" alt="">
                 </a>
-                <p class="NameContenido">Guia</p>
-                <p class="DescripcionContenido">Aprende cosas basicas para comenzar <br> y empezar a crear tu imperio</p>
+                <div class="texts">
+                    <p class="content-title">Guia</p>
+                    <p class="content-desc">Aprende cosas basicas para comenzar <br> y empezar a crear tu imperio</p>
+                </div>
             </div>
-            <div class="contenido">
-                <img class="icono" src="./img/multiplayer.jpg" alt="">
-                <p class="NameContenido">Comunidad</p>
-                <p class="DescripcionContenido">MIra cosas echas por la comunidad <br>y comparte ideas y opiniones</p>
+            <div class="content">
+                <a href="#">
+                    <img class="content-img" src="./img/multiplayer.jpg" alt="">
+                </a>
+                <div class="texts">
+                    <p class="content-title">Comunidad</p>
+                    <p class="content-desc">MIra cosas echas por la comunidad <br>y comparte ideas y opiniones</p>
+                </div>
             </div>
-            <div class="contenido">
-                <img class="icono" src="./img/mods.png" alt="">
-                <p class="NameContenido">Mods</p>
-                <p class="DescripcionContenido">Añade increibles mods para mejorar <br>un 1000% tu experiencia</p>
+            <div class="content">
+                <a href="#">
+                    <img class="content-img" src="./img/mods.png" alt="">
+                </a>
+                <div class="texts">
+                    <p class="content-title">Mods</p>
+                    <p class="content-desc">Añade increibles mods para mejorar <br>un 1000% tu experiencia</p>
+                </div>
             </div>
-
-        </section>
-        <section>
-            <div class="contenido">
-                <img class="icono" src="./img/noticias.jpg" alt="">
-                <p class="NameContenido">Noticias</p>
-                <p class="DescripcionContenido">Mira las Noticias y mantente actulizado <br> con las ultimas novedades</p>
+            <div class="content">
+                <a href="#">
+                    <img class="content-img" src="./img/noticias.jpg" alt="">
+                </a>
+                <div class="texts">
+                    <p class="content-title">Noticias</p>
+                    <p class="content-desc">Mira las Noticias y mantente actulizado <br> con las ultimas novedades</p>
+                </div>
             </div>
-            <div class="contenido">
-                <img class="icono" src="./img/cofre.jpg" alt="">
-                <p class="NameContenido">Acertijos</p>
-                <p class="DescripcionContenido">¿problemas con un puzzle?<br>¡¡No te preocupes te ayudaremos!!</p>
+            <div class="content">
+                <a href="#">
+                    <img class="content-img" src="./img/cofre.jpg" alt="">
+                </a>
+                <div class="texts">
+                    <p class="content-title">Acertijos</p>
+                    <p class="content-desc">¿problemas con un puzzle?<br>¡¡No te preocupes te ayudaremos!!</p>
+                </div>
             </div>
-            <div class="contenido">
-                <img class="icono" src="./img/consejos.jpg" alt="">
-                <p class="NameContenido">Consejos</p>
-                <p class="DescripcionContenido">Pequeños Tips para ayudarte <br> y facilitarte las cosas</p>
+            <div class="content">
+                <a href="#">
+                    <img class="content-img" src="./img/consejos.jpg" alt="">
+                </a>
+                <div class="texts">
+                    <p class="content-title">Consejos</p>
+                    <p class="content-desc">Pequeños Tips para ayudarte <br> y facilitarte las cosas</p>
+                </div>
             </div>
         </section>
     </main>
